@@ -15,8 +15,4 @@ namespace BML
         public string ForexSelling { get; set; }
 
     }
-    public class Test
-    {
-
-    }
 }
