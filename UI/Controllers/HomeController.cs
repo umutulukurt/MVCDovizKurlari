@@ -16,6 +16,7 @@ namespace UI.Controllers
             IEnumerable<DovizKuruModel> liste = islemler.DovizKurlari();
             return View(liste);
         }
+  
         public ActionResult DovizKuru(string CurrencyCode)
         {
             DovizKuruIslemleri islemler = new DovizKuruIslemleri();
